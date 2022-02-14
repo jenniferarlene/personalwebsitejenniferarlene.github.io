@@ -1,0 +1,227 @@
+body{
+    background-color: #F3C5C5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.medsos{
+    padding: 15px 0;
+    background-color: #886F6F;
+}
+.medsos ul li{
+    display: inline-block;
+    color: #F3C5C5;
+    margin-right: 45px;
+}
+.container{
+    width: 90%;
+    margin: 0 50px;
+}
+#top h1{
+    float: left;
+    padding: 20px 25px;
+    color: #694E4E;
+}
+#top ul{
+    float: right;
+}
+#top ul li{
+    display: inline-block;
+}
+#top ul li a{
+    padding: 15px 20px;
+    display: inline-block;
+}
+#top ul li a:hover{
+    background-color: #886F6F;
+    color: #F3C5C5;
+    border-bottom: 5px solid #C1A3A3;
+}
+.active{
+    background-color: #886F6F;
+    color: #F3C5C5;
+    border-bottom: 5px solid #694E4E;
+}
+#test{
+    background-image: url(Images/956443.jpg);
+    background-size: cover;
+    height: 600px;
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#testtext p{
+    font-weight: bold;
+    font-size: xx-large;
+    color: #694E4E;
+    border: 3px solid #694E4E;
+    padding: 20px 50px;
+    width: 450px;
+    text-align: center;
+}
+#abouttext h3{
+    font-weight: bold;
+    font-size: larger;
+    color: #694E4E;
+    padding: 40px 0px;
+    text-align: center;
+}
+#abouttext p{
+    font-size: large;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+    padding-bottom: 40px;
+    margin-left: 450px;
+    margin-right: 450px;
+    color: #886F6F;
+}
+footer{
+    padding: 40px 0;
+    background-color: #886F6F;
+    color: #F3C5C5;
+    text-align: center;
+}
+#aboutme{
+    display: flex;
+    height: 400px;
+    padding-top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+#aboutme img{
+    height: 400px;
+    margin: 0px 0px 0px 90px;
+    text-align: center;
+    border-radius: 10px;
+}
+#aboutmetext p{
+    font-size: large;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #886F6F;
+}
+#atas p{
+    font-size: x-large;
+    font-weight: bold;
+    color: #694E4E;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+#highlight{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+.box1{
+    width: 320px;
+    height: 180px;
+    display: flex;
+    padding: 0px 70px;
+}
+.box2{
+    width: 320px;
+    height: 550px;
+    display: flex;
+    padding: 0px 70px;
+}
+.box1 img{
+    width: 320px;
+    height: 180px;
+    border-radius: 10px;
+}
+#hltext{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    margin-top: 10px;
+    word-spacing: 7px;
+    color: #694E4E;
+}
+#bottom{
+    padding: 40px 0;
+    background-color: #886F6F;
+    color: #F3C5C5;
+    text-align: center;
+}
+#kontak p{
+    font-size: x-large;
+    font-weight: bold;
+    color: #694E4E;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#add {
+    margin-left: 70px;
+}
+.input{
+    height: 30px;
+    width: 500px;
+    background-color: #886F6F;
+    color: #F3C5C5;
+    font-size: medium;
+    border-radius: 4px;
+}
+table#tabel tr, table#tabel td{
+    height: 45px;
+}
+#tabel tr:nth-child(4){
+    height: 30px;
+}
+#formulir{
+    display: flex;
+    height: 350px;
+}
+#formulir img{
+    width: 600px;
+    margin-left: 50px;
+    height: 280px;
+}
+.smooth{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px;
+    width: 150px;
+    border-radius: 20px;
+    color: #886F6F;
+    background-color: #C1A3A3;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+.smooth:hover, .smooth:focus{
+    background-color: #F3C5C5;
+}
+#kaki{
+    padding: 40px 0;
+    background-color: #886F6F;
+    color: #F3C5C5;
+    text-align: center;
+}
+#proses{
+    font-size: x-large;
+    font-weight: bold;
+    color: #694E4E;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#thankyou{
+    text-align: center;
+    margin-bottom: 30px;
+}
